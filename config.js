@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Nicholas Pung',
     photo: '/photo.jpg',
-    bio: 'Web Developer. Podcast Aficionado. All things health and wellness. Join me as I learn how to be the best programmer I can be.',
+    bio: 'Web Developer. Podcast Aficionado. Powerlifting Enthusiast. All things health and wellness. Join me as I learn how to be the best programmer I can be.',
     contacts: {
       email: 'nckpng95@gmail.com',
       github: 'nicholaspung',
