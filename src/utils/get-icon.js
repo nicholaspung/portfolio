@@ -26,6 +26,9 @@ const getIcon = (name: string) => {
     case 'linkedin':
       icon = ICONS.LINKEDIN;
       break;
+    case 'githublink':
+      icon = ICONS.GITHUBLINK;
+      break;
     default:
       icon = {};
       break;
