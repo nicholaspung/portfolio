@@ -9,16 +9,16 @@ const createPostsPages = require('./pagination/create-posts-pages.js');
 const createPages = async ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions;
 
+  // Project page (homepage)
+  createPage({
+    path: '/',
+    component: path.resolve('./src/templates/index-template.js')
+  })
+
   // 404
   createPage({
     path: '/404',
     component: path.resolve('./src/templates/not-found-template.js')
-  });
-
-  // Posts Feed (formerly the blog homepage)
-  createPage({
-    path: '/posts',
-    component: path.resolve('./src/templates/posts-template.js')
   });
 
   // Tags list

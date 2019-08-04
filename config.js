@@ -31,7 +31,7 @@ module.exports = {
     contacts: {
       email: 'nicholaspungdev@gmail.com',
       github: 'nicholaspung',
-      linkedin: 'nicholas-pung'
+      linkedin: '/in/nicholas-pung'
     }
   }
 };
