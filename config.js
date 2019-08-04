@@ -12,16 +12,16 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Projects',
       path: '/'
+    },
+    {
+      label: 'Posts',
+      path: '/posts'
     },
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
@@ -29,7 +29,7 @@ module.exports = {
     photo: '/photo.jpg',
     bio: 'Web Developer. Podcast Aficionado. Powerlifting Enthusiast. All things health and wellness. Join me as I learn how to be the best programmer I can be.',
     contacts: {
-      email: 'nckpng95@gmail.com',
+      email: 'nicholaspungdev@gmail.com',
       github: 'nicholaspung',
       linkedin: 'nicholas-pung'
     }

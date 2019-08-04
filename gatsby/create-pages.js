@@ -7,12 +7,18 @@ const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
 
 const createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
 
   // 404
   createPage({
     path: '/404',
     component: path.resolve('./src/templates/not-found-template.js')
+  });
+
+  // Posts Feed (formerly the blog homepage)
+  createPage({
+    path: '/posts',
+    component: path.resolve('./src/templates/posts-template.js')
   });
 
   // Tags list
@@ -46,6 +52,12 @@ const createPages = async ({ graphql, actions }) => {
       }
     }
   `);
+
+  // Redirects to Tags and Categories if user decides to delete post name in URL, not sure if this is best practice
+  createRedirect({ fromPath: '/tag', toPath: '/tags', isPermanent: true, redirectInBrowser: true })
+  createRedirect({ fromPath: '/tag/', toPath: '/tags', isPermanent: true, redirectInBrowser: true })
+  createRedirect({ fromPath: '/category', toPath: '/categories', isPermanent: true, redirectInBrowser: true })
+  createRedirect({ fromPath: '/category/', toPath: '/categories', isPermanent: true, redirectInBrowser: true })
 
   const { edges } = result.data.allMarkdownRemark;
 

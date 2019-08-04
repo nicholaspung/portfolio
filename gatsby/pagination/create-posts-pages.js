@@ -31,5 +31,19 @@ module.exports = async (graphql, actions) => {
         hasNextPage: i !== numPages - 1
       }
     });
+
+    createPage({
+      path: i === 0 ? 'posts' : `/page/${i}`,
+      component: path.resolve('./src/templates/posts-template.js'),
+      context: {
+        currentPage: i,
+        postsLimit: postsPerPage,
+        postsOffset: i * postsPerPage,
+        prevPagePath: i <= 1 ? '/' : `/page/${i - 1}`,
+        nextPagePath: `/page/${i + 1}`,
+        hasPrevPage: i !== 0,
+        hasNextPage: i !== numPages - 1
+      }
+    });
   }
 };
