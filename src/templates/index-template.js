@@ -46,6 +46,7 @@ export const query = graphql`
             category
             description
             slug
+            tags
           }
           html
         }

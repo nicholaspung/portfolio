@@ -3,7 +3,7 @@
 module.exports = {
   site: {
     siteMetadata: {
-      url: 'http://localhost',
+      url: 'https://localhost',
       title: 'Test title',
       subtitle: 'Test subtitle',
       copyright: 'Test copyright',

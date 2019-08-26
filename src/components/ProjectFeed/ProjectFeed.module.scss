@@ -35,7 +35,16 @@
         @include line-height(1);
         @include margin-bottom(.75);
 
-        &-link {
+        & div {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        &-technologies {
+          font-style: italic;
+        }
+
+        &-github {
           display: flex;
           align-content: center;
           & span {
