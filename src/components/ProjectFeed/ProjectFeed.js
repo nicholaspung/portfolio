@@ -22,10 +22,10 @@ const ProjectFeed = ({ edges }: Props) => (
           <div className={styles['project-feed__item-title-link']}>{edge.node.frontmatter.title}</div>
         </h2>
         <div className={styles['project-feed__item-content']}>
+          <p>{edge.node.frontmatter.description}</p>
           <div className={styles['project-feed__item-content-body']} dangerouslySetInnerHTML={{ __html: edge.node.html }}/>
           <div className={styles['project-feed__item-content-description']}>
             <p>Technologies Used: <span className={styles['project-feed__item-content-description-technologies']}>{edge.node.frontmatter.category}</span></p>
-            <p>{edge.node.frontmatter.description}</p>
             <div>
               {/* GitHub SVG */}
               <a className={styles['project-feed__item-content-description-github']} href={`${edge.node.frontmatter.slug}`} target="_blank">
