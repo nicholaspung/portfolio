@@ -1,5 +1,5 @@
 ---
-title: Dashboard (name WIP) API
+title: Dashboard API
 date: "2019-08-12"
 template: "project"
 draft: false
