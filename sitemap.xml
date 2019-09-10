@@ -3,9 +3,10 @@
 <url> <loc>https://lumen.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/struggling-with-google-oauth/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/struggling-with-google-oauth-2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tag/node-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tag/passport-js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/category/what-i-learned</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
