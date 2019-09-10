@@ -15,7 +15,7 @@ Other than that, when I'm not developing my skills as a developer, I like to tra
 #### Actively Using
 Javascript, ReactJS, NodeJS, MongoDB, ExpressJS, Python
 #### Have Used Before
-Java, Java Spring Framework, PostgreSQL, C++, GatsbyJS
+Java, Java Spring Framework, PostgreSQL, MSSQL, C++, GatsbyJS
 #### Want To Learn
 ElectronJS, React Native, TypeScript
 

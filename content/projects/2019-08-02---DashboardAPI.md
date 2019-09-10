@@ -9,5 +9,5 @@ tags:
  - "https://frozen-lowlands-33507.herokuapp.com/"
 description: "Dashboard (name WIP) API is the REST client for Dashboard (name WIP). Current tools created are a todo list and a habit tracker. In addition to the technologies used, Dashboard (name WIP) API was built using PassportJS and SwaggerUI."
 ---
-![](/media/emaily.jpg)
+![](/media/dashboard-b.png)
 *Picture of SwaggerUI documentation*
