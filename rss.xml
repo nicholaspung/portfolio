@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Portfolio by Nicholas Pung]]></title><description><![CDATA[Learnings of a Web Developer]]></description><link>https://lumen.netlify.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 03 Oct 2019 15:03:38 GMT</lastBuildDate><item><title><![CDATA[Project Doc for Dashboard Application | Part 1]]></title><description><![CDATA[The goal of this is to build an application with a monolithic architecture, mainly to reduce costs in hosting servers and buying domain names. If money weren't an issue, I would instead be going with a microservice architecture for the reason of having easier maintainable code to develop, being able to use different programming languages for different situations, and most importantly to enable continuous delivery and deployment of the application.]]></description><link>https://lumen.netlify.com/posts/dashboard-application-project-doc-revamp-1</link><guid isPermaLink="false">https://lumen.netlify.com/posts/dashboard-application-project-doc-revamp-1</guid><pubDate>Fri, 27 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;project-goal&quot;&gt;&lt;a href=&quot;#project-goal&quot; aria-label=&quot;project goal permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Project Goal&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Portfolio by Nicholas Pung]]></title><description><![CDATA[Learnings of a Web Developer]]></description><link>https://lumen.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 16 Dec 2019 06:36:45 GMT</lastBuildDate><item><title><![CDATA[Project Doc for Dashboard Application | Part 1]]></title><description><![CDATA[The goal of this is to build an application with a monolithic architecture, mainly to reduce costs in hosting servers and buying domain names. If money weren't an issue, I would instead be going with a microservice architecture for the reason of having easier maintainable code to develop, being able to use different programming languages for different situations, and most importantly to enable continuous delivery and deployment of the application.]]></description><link>https://lumen.netlify.com/posts/dashboard-application-project-doc-revamp-1</link><guid isPermaLink="false">https://lumen.netlify.com/posts/dashboard-application-project-doc-revamp-1</guid><pubDate>Fri, 27 Sep 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;project-goal&quot;&gt;&lt;a href=&quot;#project-goal&quot; aria-label=&quot;project goal permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Project Goal&lt;/h1&gt;
 &lt;p&gt;The goal of this is to build an application with a monolithic architecture, mainly to reduce costs in hosting servers and buying domain names. If money weren’t an issue, I would instead be going with a microservice architecture for the reason of having easier maintainable code to develop, being able to use different programming languages for different situations, and most importantly to enable continuous delivery and deployment of the application.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;First attempt was not great. When I tried to build a front-end using the API I built, it didn’t make sense intuitively.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;However, because my main issue is not wanting to buy hosting for each of the microservices, I will be building a monolithic application.&lt;/p&gt;
@@ -48,7 +48,7 @@ a) View for daily, weekly, monthly, yearly&lt;/li&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/56dc13f5ede9fb6daf9e048508719043/c236c/dashboard-system-design.png&quot;
+    href=&quot;/static/56dc13f5ede9fb6daf9e048508719043/59594/dashboard-system-design.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -59,28 +59,30 @@ a) View for daily, weekly, monthly, yearly&lt;/li&gt;
   &gt;&lt;/span&gt;
   &lt;picture&gt;
         &lt;source
-          srcset=&quot;/static/56dc13f5ede9fb6daf9e048508719043/01472/dashboard-system-design.webp 240w,
-/static/56dc13f5ede9fb6daf9e048508719043/222bd/dashboard-system-design.webp 480w,
-/static/56dc13f5ede9fb6daf9e048508719043/620b9/dashboard-system-design.webp 960w,
-/static/56dc13f5ede9fb6daf9e048508719043/28063/dashboard-system-design.webp 1440w,
-/static/56dc13f5ede9fb6daf9e048508719043/50d47/dashboard-system-design.webp 1464w&quot;
+          srcset=&quot;/static/56dc13f5ede9fb6daf9e048508719043/8ac56/dashboard-system-design.webp 240w,
+/static/56dc13f5ede9fb6daf9e048508719043/d3be9/dashboard-system-design.webp 480w,
+/static/56dc13f5ede9fb6daf9e048508719043/e46b2/dashboard-system-design.webp 960w,
+/static/56dc13f5ede9fb6daf9e048508719043/f992d/dashboard-system-design.webp 1440w,
+/static/56dc13f5ede9fb6daf9e048508719043/0699c/dashboard-system-design.webp 1464w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/webp&quot;
         /&gt;
         &lt;source
-          srcset=&quot;/static/56dc13f5ede9fb6daf9e048508719043/0783d/dashboard-system-design.png 240w,
-/static/56dc13f5ede9fb6daf9e048508719043/782f4/dashboard-system-design.png 480w,
-/static/56dc13f5ede9fb6daf9e048508719043/f570d/dashboard-system-design.png 960w,
-/static/56dc13f5ede9fb6daf9e048508719043/8d0ff/dashboard-system-design.png 1440w,
-/static/56dc13f5ede9fb6daf9e048508719043/c236c/dashboard-system-design.png 1464w&quot;
+          srcset=&quot;/static/56dc13f5ede9fb6daf9e048508719043/e4891/dashboard-system-design.png 240w,
+/static/56dc13f5ede9fb6daf9e048508719043/0ce91/dashboard-system-design.png 480w,
+/static/56dc13f5ede9fb6daf9e048508719043/b7c40/dashboard-system-design.png 960w,
+/static/56dc13f5ede9fb6daf9e048508719043/5a2b3/dashboard-system-design.png 1440w,
+/static/56dc13f5ede9fb6daf9e048508719043/59594/dashboard-system-design.png 1464w&quot;
           sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
           type=&quot;image/png&quot;
         /&gt;
         &lt;img
           class=&quot;gatsby-resp-image-image&quot;
-          src=&quot;/static/56dc13f5ede9fb6daf9e048508719043/f570d/dashboard-system-design.png&quot;
+          src=&quot;/static/56dc13f5ede9fb6daf9e048508719043/b7c40/dashboard-system-design.png&quot;
           alt=&quot;High Level System Design&quot;
           title=&quot;High Level System Design&quot;
+          loading=&quot;lazy&quot;
+          style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         /&gt;
       &lt;/picture&gt;
   &lt;/a&gt;
