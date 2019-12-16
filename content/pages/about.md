@@ -3,7 +3,7 @@ title: "About me"
 template: "page"
 ---
 
-Hi, I'm Nicholas! I'm a Software Developer who uses ReactJS, NodeJS, and Java Spring Framework to make web applications. I currently attend Lambda School's Full-Stack Web Development program. Also I'm currently building a personal project on mine - A Dashboard Application that contains many different mini applications that have specific use cases. The project is currently under construction (not pretty at all), but here are the 2 repos if you want to check them out: [frontend](https://github.com/nicholaspung/dashboard), [backend](https://github.com/nicholaspung/dashboard-backend).
+Hi, I'm Nicholas! I'm a Software Developer who uses ReactJS, NodeJS, and Java Spring Framework to make web applications. I currently attend [Lambda School](https://lambdaschool.com/)'s Full-Stack Web Development program.
 
 Before deciding to put all my focus into becoming a Web Developer, I was fortunate enough to work under [Tom Bilyeu from Impact Theory](https://www.youtube.com/tombilyeu), where I learned and ingrained in my head that **developing skills** is one of the most important aspects in life in order to provide value to others. 
 
@@ -13,9 +13,9 @@ Other than that, when I'm not developing my skills as a developer, I like to tra
 
 ## Technologies
 #### Actively Using
-Javascript, ReactJS, NodeJS, MongoDB, ExpressJS, Python
+Javascript, ReactJS, GatsbyJS, Firebase, NodeJS, ExpressJS, PostgreSQL
 #### Have Used Before
-Java, Java Spring Framework, PostgreSQL, MSSQL, C++, GatsbyJS
+Java, Java Spring Framework, MSSQL, C++, Python, MongoDB
 #### Want To Learn
 ElectronJS, React Native, TypeScript
 
